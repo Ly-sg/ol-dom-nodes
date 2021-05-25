@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+.map-container {
+    width: 100%;
+    /*@media(max-width: 60em) {
+          margin    : 0;
+          min-height: calc(100vh - 5.5rem);
+      }*/
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    bottom: 5px;
+    right: 0px;
+    min-width: max-content;
+    z-index: 10000;
+    background-color: rgba(255, 255, 255, 0.95);
+}

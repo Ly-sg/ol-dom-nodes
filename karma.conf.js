@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/ol-rxjs'),
+      dir: require('path').join(__dirname, './coverage/ol-dom-nodes'),
       subdir: '.',
       reporters: [
         { type: 'html' },
